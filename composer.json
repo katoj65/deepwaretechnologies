@@ -80,7 +80,10 @@
         "optimize-autoloader": true,
         "preferred-install": "dist",
         "sort-packages": true,
-        "allow-plugins": {
+        "platform": {
+    "php": "8.2.32"
+},
+  "allow-plugins": {
             "pestphp/pest-plugin": true,
             "php-http/discovery": true
         }
